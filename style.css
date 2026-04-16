@@ -14,13 +14,13 @@ header {
 }
 
 .logo h1 {
-    margin: 3;
+    margin: 30;
 }
 
 .logo p {
-    margin: 5px 0;
+    margin: 10px 20;
     font-size: 14px;
-    color: #ccc;
+    color: #fefafa;
 }
 
 /* NAVIGATION */
