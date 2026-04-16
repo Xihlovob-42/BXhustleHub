@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+/* HEADER */
+header {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.logo h1 {
+    margin: 3;
+}
+
+.logo p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #ccc;
+}
+
+/* NAVIGATION */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* SECTIONS */
+section {
+    padding: 20px;
+    margin: 10px;
+    background-color: white;
+}
+
+/* HEADINGS */
+h2 {
+    color: #333;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    background-color: #111;
+    color: white;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+/* SOCIAL BUTTONS */
+.social-btn {
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 5px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+}
+
+.facebook {
+    background-color: #3b5998;
+}
+
+.instagram {
+    background-color: #e1306c;
+}
+
+.social-btn:hover {
+    opacity: 0.8;
+}
