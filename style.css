@@ -82,3 +82,123 @@ footer {
 .social-btn:hover {
     opacity: 0.8;
 }
+#navLinks {
+    display: flex;
+    gap: 20px;
+}
+
+.menu-toggle {
+    display: none;
+    cursor: pointer;
+}
+
+/* Mobile view */
+@media (max-width: 600px) {
+    #navLinks {
+        display: none;
+        flex-direction: column;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    #navLinks.active {
+        display: flex;
+    }
+}
+h1, h2, h3 {
+    border: 2px solid black;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 8px;
+    background-color: #7dd6dc;
+}
+#menu {
+    display: none;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 150px;
+    position: absolute;
+    top: 60px;
+}
+
+#menu.show {
+    display: block;
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}/* MOBILE FRIENDLY DESIGN */
+@media screen and (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .hero h2 {
+        font-size: 22px;
+    }
+
+    .hero p {
+        font-size: 14px;
+    }
+
+    section {
+        padding: 10px;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    #menu {
+        position: static;
+        width: 100%;
+    }
+}nav ul {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+.menu-btn {
+    font-size: 20px;
+    padding: 10px 15px;
+    cursor: pointer;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+#menu {
+    display: none;
+    background: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    position: absolute;
+    top: 60px;
+    right: 10px;
+    width: 180px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
