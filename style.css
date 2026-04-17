@@ -14,11 +14,11 @@ header {
 }
 
 .logo h1 {
-    margin: 30;
+    margin: 30px;
 }
 
 .logo p {
-    margin: 10px 20;
+    margin: 10px 20px;
     font-size: 14px;
     color: #fefafa;
 }
@@ -27,6 +27,8 @@ header {
 nav ul {
     list-style-type: none;
     padding: 0;
+    display: flex;
+    gap: 15px;
 }
 
 nav li {
@@ -49,7 +51,7 @@ section {
 /* HEADINGS */
 h2 {
     color: #333;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 /* FOOTER */
@@ -82,6 +84,8 @@ footer {
 .social-btn:hover {
     opacity: 0.8;
 }
+
+/* NAV LINKS */
 #navLinks {
     display: flex;
     gap: 20px;
@@ -92,7 +96,7 @@ footer {
     cursor: pointer;
 }
 
-/* Mobile view */
+/* MOBILE VIEW (SMALL SCREENS) */
 @media (max-width: 600px) {
     #navLinks {
         display: none;
@@ -107,21 +111,27 @@ footer {
         display: flex;
     }
 }
+
+/* HEADING STYLE */
 h1, h2, h3 {
     border: 2px solid black;
     padding: 10px;
     display: inline-block;
     border-radius: 8px;
-    background-color: #7dd6dc;
+    background-color: #448880;
 }
+
+/* DROPDOWN MENU */
 #menu {
     display: none;
     background-color: white;
     border: 1px solid #ccc;
     padding: 10px;
-    width: 150px;
+    width: 180px;
     position: absolute;
     top: 60px;
+    right: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
 
 #menu.show {
@@ -138,7 +148,9 @@ h1, h2, h3 {
         opacity: 1;
         transform: translateY(0);
     }
-}/* MOBILE FRIENDLY DESIGN */
+}
+
+/* MOBILE FRIENDLY DESIGN */
 @media screen and (max-width: 768px) {
 
     header {
@@ -155,14 +167,6 @@ h1, h2, h3 {
         margin: 10px 0;
     }
 
-    .hero h2 {
-        font-size: 22px;
-    }
-
-    .hero p {
-        font-size: 14px;
-    }
-
     section {
         padding: 10px;
     }
@@ -176,11 +180,9 @@ h1, h2, h3 {
         position: static;
         width: 100%;
     }
-}nav ul {
-    display: flex;
-    gap: 15px;
-    list-style: none;
 }
+
+/* MENU BUTTON */
 .menu-btn {
     font-size: 20px;
     padding: 10px 15px;
@@ -189,16 +191,4 @@ h1, h2, h3 {
     background-color: black;
     color: white;
     border-radius: 5px;
-}
-
-#menu {
-    display: none;
-    background: white;
-    border: 1px solid #ccc;
-    padding: 10px;
-    position: absolute;
-    top: 60px;
-    right: 10px;
-    width: 180px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
