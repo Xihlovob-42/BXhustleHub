@@ -1,83 +1,89 @@
-# 🌐 BXhustleHub
-
-## 📌 Overview
-BXhustleHub is a simple community-based website built using HTML.  
-It is designed to provide local support services such as baking, dog walking, homework help, and cleaning assistance. The website focuses on structure, navigation, and user-friendly design.
+# 🌐 BXhustleHub Website Project
 
 ---
 
-## 🎯 Purpose of the Website
-The purpose of BXhustleHub is to:
-- Support community-based services
-- Help learners understand basic web development
-- Demonstrate HTML structure and multi-page navigation
-- Create a simple but professional website layout
+## 📌 1. Project Title
+**BXhustleHub**
 
 ---
 
-## 📄 Website Pages
-The website includes the following pages:
-
-- 🏠 Home (index.html)
-- ℹ️ About Us (about.html)
-- 🛠️ Services (services.html)
-- 📞 Contact (contact.html)
-- 📩 Enquiry (enquiry.html)
+## 👨‍🎓 2. Student Information
+- **Name:** Xihlovo Maluleke  
+- **Student Number:** ST10520787  
+- **Project:** Website Development (BXhustleHub)  
+- **Course:** Web Development / IT (POE Project)  
 
 ---
 
-## 🛠️ Services Offered
-BXhustleHub provides the following services:
+## 📖 3. Project Overview
+BXhustleHub is a simple multi-page website developed using HTML.  
+The website is designed as a community support hub that offers basic services such as baking, dog walking, homework help, and cleaning assistance.
 
-- 🍰 Baking Services  
-- 🐶 Dog Walking  
-- 📚 Homework Help  
-- 🧹 Cleaning Assistance  
+The main purpose of the website is to demonstrate basic web development skills including page linking, navigation structure, and content organization.
 
 ---
 
-## 🖼️ Images Used
-The website uses images to represent services visually:
+## 🎯 4. Website Goals and Objectives
+### Goals:
+- To create a functional and structured website using HTML
+- To provide a clear navigation system between pages
+- To display services in a simple and understandable format
 
-- baking.jpg  
-- dogwalking.jpg  
-- homeworkhelp.jpg  
-- cleaning.jpg  
-
-(All images are stored in the `images/` folder)
-
----
-
-## 📁 Folder Structure
-
+### Objectives:
+- Build multiple linked web pages (Home, About, Services, Contact, Enquiry)
+- Include images to represent services
+- Ensure the website is easy to use and user-friendly
+- Demonstrate basic GitHub usage and version control
 
 ---
 
-## 🔗 Navigation
-All pages are linked using a simple navigation bar:
-- Home
-- About
-- Services
-- Contact
-- Enquiry
-
-This allows easy movement between pages.
+## ⚙️ 5. Key Features and Functionality
+- Multi-page navigation system
+- Navigation bar across all pages
+- Service sections with images
+- Simple HTML structure (no frameworks)
+- Contact and enquiry sections
+- Footer with copyright information
 
 ---
 
-## 💡 Technologies Used
-- HTML only (no frameworks or libraries)
-- Basic file structuring
-- Image integration
-- Internal linking between pages
+## ⏳ 6. Timeline and Milestones
+- **Week 1:** Project planning and idea selection (BXhustleHub concept)
+- **Week 2:** Created HTML structure and pages
+- **Week 3:** Added navigation bar and content sections
+- **Week 4:** Added images and services content
+- **Week 5:** Final testing and GitHub upload
+- **Week 6:** README creation and final submission preparation
 
 ---
 
-## 👨‍💻 Author
-BXhustleHub Project  
-Created for educational and portfolio purposes.
+## 📘 7. Part 1 Details
+Part 1 of the project focused on:
+- Planning the website structure
+- Designing page layout ideas
+- Identifying required pages and content
+- Selecting services to include
+- Creating a basic sitemap and structure plan
 
 ---
 
-## 📌 Note
-This project is built as part of a learning process to demonstrate basic website development skills using HTML.
+## 🔄 8. Changelog
+### Version 1.0
+- Initial website structure created
+- Basic HTML pages added
+
+### Version 1.1
+- Navigation bar added across pages
+- Services page created
+
+### Version 1.2
+- Images added to services page (baking and dog walking)
+- Homework help and cleaning services added
+
+### Version 1.3
+- Footer added to services page
+- Final formatting and cleanup completed
+
+---
+
+## 📁 9. Folder Structure
