@@ -1,0 +1,505 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #222;
+    line-height: 1.6;
+}
+
+/* HEADER */
+header{
+    background-color: #000814;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+/* LOGO */
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo img{
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+}
+
+.logo p{
+    color: #00bfff;
+    font-size: 14px;
+}
+
+/* NAVIGATION */
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover{
+    color: #00bfff;
+}
+
+/* HERO / HOME SECTION */
+.hero{
+    background:
+    linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url("images/background.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    height: 85vh;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    padding: 20px;
+}
+
+.hero h2{
+    font-size: 55px;
+    margin-bottom: 20px;
+}
+
+.hero p{
+    font-size: 20px;
+    max-width: 700px;
+}
+
+/* GENERAL SECTION STYLING */
+section{
+    padding: 60px 50px;
+}
+
+section h2{
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+
+/* ABOUT US / INTRO */
+.intro{
+    background-color: #ffffff;
+    color: #222;
+}
+
+.intro h2{
+    color: #0077b6;
+}
+
+/* SERVICES SECTION */
+.services-preview{
+    background-color: #0077b6;
+    color: white;
+}
+
+.services-preview h2{
+    color: white;
+}
+
+/* WHY CHOOSE US */
+.why-choose{
+    background-color: #001d3d;
+    color: white;
+}
+
+.why-choose h2{
+    color: #00bfff;
+}
+
+/* LISTS */
+.services-preview ul,
+.why-choose ul{
+    list-style: none;
+    margin-top: 20px;
+}
+
+/* BOXES */
+.services-preview ul li,
+.why-choose ul li{
+    background-color: rgba(255,255,255,0.15);
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.services-preview ul li:hover,
+.why-choose ul li:hover{
+    transform: translateY(-5px);
+    background-color: rgba(255,255,255,0.25);
+}
+
+/* FOOTER */
+footer{
+    background-color: #000814;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p{
+    margin: 5px 0;
+}
+
+/* RESPONSIVE DESIGN */
+@media(max-width: 768px){
+
+    header{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul{
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .hero h2{
+        font-size: 35px;
+    }
+
+    .hero p{
+        font-size: 16px;
+    }
+
+    section{
+        padding: 40px 20px;
+    }
+}
+/* NAV BAR */
+nav{
+    background-color: #000814;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover{
+    color: #00bfff;
+}
+
+/* CONTACT INTRO */
+.contact-intro{
+    background-color: #001d3d;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.contact-intro h2{
+    color: #00bfff;
+    margin-bottom: 10px;
+}
+
+/* LOCATIONS SECTION */
+.locations{
+    background-color: #f5f5f5;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 60px 20px;
+}
+
+
+/* NAV BAR */
+nav{
+    background-color: #000814;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover{
+    color: #00bfff;
+}
+
+/* CONTACT INTRO */
+.contact-intro{
+    background-color: #001d3d;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.contact-intro h2{
+    color: #00bfff;
+    margin-bottom: 10px;
+}
+
+/* LOCATIONS SECTION */
+.locations{
+    background-color: #f5f5f5;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 60px 20px;
+}
+
+
+/* NAV BAR */
+nav{
+    background-color: #000814;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover{
+    color: #00bfff;
+}
+
+/* CONTACT INTRO */
+.contact-intro{
+    background-color: #001d3d;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.contact-intro h2{
+    color: #00bfff;
+    margin-bottom: 10px;
+}
+
+/* LOCATIONS SECTION */
+.locations{
+    background-color: #f5f5f5;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 60px 20px;
+}
+
+/* CARDS */
+.location-card{
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.location-card:hover{
+    transform: translateY(-5px);
+}
+
+/* HEADER */
+header{
+    background-color: #000814;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+/* FOOTER */
+footer{
+    background-color: #000814;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}/* HEADER */
+header{
+    background-color: #000814;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    color: white;
+}
+
+/* LOGO */
+.logo img{
+    width: 70px;
+}
+
+/* NAV */
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: #00bfff;
+}
+
+/* HERO */
+.hero{
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url("images/background.jpg");
+
+    background-size: cover;
+    background-position: center;
+
+    height: 85vh;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+}
+
+/* INTRO */
+.intro{
+    background-color: white;
+    padding: 60px;
+}
+
+/* SERVICES */
+.services-preview{
+    background-color: #0077b6;
+    color: white;
+    padding: 60px;
+}
+
+/* WHY CHOOSE */
+.why-choose{
+    background-color: #001d3d;
+    color: white;
+    padding: 60px;
+}
+
+/* LIST BOXES */
+.services-preview ul li,
+.why-choose ul li{
+    background-color: rgba(255,255,255,0.2);
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* FOOTER */
+footer{
+    background-color: #000814;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+/* NAV */
+nav{
+    background-color: #000814;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover{
+    color: #00bfff;
+}
+
+/* SERVICES HERO */
+.services-hero{
+    background: linear-gradient(135deg, #0077b6, #00bfff);
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+/* SERVICES GRID */
+.services-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 60px 20px;
+    background-color: #f5f5f5;
+}
+
+/* SERVICE CARDS */
+.service-card{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.service-card:hover{
+    transform: translateY(-5px);
+}
+
+.service-card img{
+    width: 100%;
+    max-width: 250px;
+    border-radius: 10px;
+}
+
+/* HEADER */
+header{
+    background-color: #000814;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+/* FOOTER */
+footer{
+    background-color: #000814;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
