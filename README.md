@@ -1,28 +1,81 @@
-# BX Hustle Hub 🌍
+# 🚀 BX Hustle Hub
 
-BX Hustle Hub is a local community platform that connects people with small businesses and skilled hustlers in their area.
+> A modern community platform connecting local service providers with people who need affordable and reliable services.
 
-## 🚀 What the website does
-- Connects users to local services
-- Promotes small businesses
-- Makes services more accessible and affordable
+---
 
-## 🛠️ Pages
-- Home
-- About
-- Services
-- Contact
-- Enquiry
+## 🌍 Live Website
+🔗 Add your GitHub Pages link here  
+Example:  
+https://yourusername.github.io/BXhustleHub/
 
-## 💡 Built With
-- HTML
-- CSS
+---
 
-## 📌 Purpose
-This project was created for a web development assignment to demonstrate a responsive multi-page website.
+## 📌 About The Project
 
-## 🌐 Live Website
-(Add your GitHub Pages link here)
+BX Hustle Hub is a multi-page website designed to support local entrepreneurs and small businesses by giving them an online presence.  
+It helps users easily access everyday services in their community.
+
+---
+
+## 🛠️ Built With
+
+- HTML5  
+- CSS3  
+- Responsive Web Design  
+- Git & GitHub  
+
+---
+
+## 📄 Pages Included
+
+- Home Page 🏠  
+- About Page ℹ️  
+- Services Page 🛎️  
+- Contact Page 📞  
+- Enquiry Form 📝  
+
+---
+
+## ✨ Features
+
+- Responsive design for mobile and desktop  
+- Modern layout with cards and shadows  
+- Service listing with images  
+- Functional enquiry form UI  
+- Clean navigation system  
+
+---
+
+## 📱 Responsiveness
+
+Fully responsive across:
+- Mobile phones 📱  
+- Tablets 📲  
+- Desktop 💻  
+
+---
+
+## 🎯 Purpose
+
+This project demonstrates:
+- Multi-page website structure  
+- UI/UX design basics  
+- Responsive CSS techniques  
+- Real-world business website layout  
+
+---
+
+## 👨‍💻 Developer
+
+BX Hustle Hub Project  
+Web Development Student Project
+
+---
+
+## 📜 License
+
+For educational purposes only.
 
 ---
 
