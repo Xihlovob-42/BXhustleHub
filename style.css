@@ -19,260 +19,6 @@ header{
     color: white;
     text-align: center;
     padding: 25px;
-}
-
-/* LOGO */
-.logo img{
-    width: 140px;
-    height: auto;
-}
-
-/* NAVIGATION */
-nav{
-    background-color: #001d3d;
-    padding: 15px;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
-
-nav a{
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    transition: 0.3s;
-}
-
-nav a:hover{
-    color: #00bfff;
-}
-
-/* HERO SECTION */
-.hero,
-.services-hero,
-.enquiry-hero,
-.contact-intro{
-    background: linear-gradient(135deg, #0077b6, #00bfff);
-    color: white;
-    text-align: center;
-    padding: 80px 20px;
-}
-
-/* GENERAL SECTIONS */
-section{
-    padding: 60px 20px;
-}
-
-/* INTRO */
-.intro{
-    background-color: white;
-    text-align: center;
-}
-
-/* SERVICES */
-.services-preview{
-    background-color: #001d3d;
-    color: white;
-    text-align: center;
-}
-
-.services-preview ul{
-    list-style: none;
-    margin-top: 20px;
-}
-
-.services-preview ul li{
-    background-color: rgba(255,255,255,0.15);
-    margin: 10px auto;
-    padding: 15px;
-    max-width: 400px;
-    border-radius: 10px;
-}
-
-/* WHY CHOOSE */
-.why-choose{
-    background-color: white;
-    text-align: center;
-}
-
-.why-choose ul{
-    list-style: none;
-    margin-top: 20px;
-}
-
-.why-choose ul li{
-    background-color: #0077b6;
-    color: white;
-    margin: 10px auto;
-    padding: 15px;
-    max-width: 500px;
-    border-radius: 10px;
-}
-
-/* SERVICE CARDS */
-.services-grid{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
-    background-color: #f5f5f5;
-}
-
-.service-card{
-    background-color: white;
-    padding: 20px;
-    border-radius: 10px;
-    text-align: center;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-}
-
-.service-card img{
-    width: 100%;
-    max-width: 250px;
-    border-radius: 10px;
-}
-
-/* CONTACT */
-.locations{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
-    background-color: #f5f5f5;
-}
-
-.location-card{
-    background-color: white;
-    padding: 20px;
-    border-radius: 10px;
-    text-align: center;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-}
-
-/* FORM */
-.enquiry-form-section{
-    display: flex;
-    justify-content: center;
-    background-color: #f5f5f5;
-}
-
-form{
-    background-color: white;
-    padding: 30px;
-    border-radius: 10px;
-    width: 100%;
-    max-width: 500px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-}
-
-input,
-select,
-textarea{
-    width: 100%;
-    padding: 10px;
-    margin-top: 5px;
-    margin-bottom: 15px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-}
-
-/* BUTTON */
-button{
-    width: 100%;
-    padding: 12px;
-    background-color: #0077b6;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-button:hover{
-    background-color: #00bfff;
-}
-
-/* FOOTER */
-footer{
-    background-color: #000814;
-    color: white;
-    text-align: center;
-    padding: 20px;
-}
-
-/* RESPONSIVE */
-@media(max-width: 768px){
-
-    nav{
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .hero h2{
-        font-size: 32px;
-    }
-}/* MOBILE RESPONSIVE */
-@media(max-width: 768px){
-
-    header{
-        padding: 20px;
-        text-align: center;
-    }
-
-    nav{
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    .hero,
-    .services-hero,
-    .enquiry-hero,
-    .contact-intro{
-        padding: 60px 15px;
-    }
-
-    .hero h2{
-        font-size: 30px;
-    }
-
-    .hero p{
-        font-size: 16px;
-    }
-
-    section{
-        padding: 40px 15px;
-    }
-
-    .services-grid,
-    .locations{
-        grid-template-columns: 1fr;
-    }
-
-    .logo img{
-        width: 100px;
-    }
-
-    form{
-        padding: 20px;
-    }
-}/* RESET */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* BODY */
-body{
-    font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
-    color: #222;
-    line-height: 1.6;
-}
-
-/* HEADER */
-header{
-    background-color: #000814;
-    color: white;
-    text-align: center;
-    padding: 25px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
 
@@ -322,7 +68,7 @@ nav a:hover{
     margin-bottom: 15px;
 }
 
-/* GENERAL SECTION */
+/* SECTION */
 section{
     padding: 60px 20px;
 }
@@ -334,78 +80,26 @@ section{
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
-/* SERVICES PREVIEW */
-.services-preview{
-    background-color: #001d3d;
-    color: white;
-    text-align: center;
-}
-
-.services-preview ul{
-    list-style: none;
-    margin-top: 20px;
-}
-
-.services-preview ul li{
-    background-color: rgba(255,255,255,0.15);
-    margin: 10px auto;
-    padding: 15px;
-    max-width: 400px;
-    border-radius: 10px;
-    transition: 0.3s;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-}
-
-.services-preview ul li:hover{
-    transform: translateY(-5px);
-    background-color: rgba(255,255,255,0.25);
-}
-
-/* WHY CHOOSE */
-.why-choose{
-    background-color: white;
-    text-align: center;
-}
-
-.why-choose ul{
-    list-style: none;
-    margin-top: 20px;
-}
-
-.why-choose ul li{
-    background-color: #0077b6;
-    color: white;
-    margin: 10px auto;
-    padding: 15px;
-    max-width: 500px;
-    border-radius: 10px;
-    transition: 0.3s;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-}
-
-.why-choose ul li:hover{
-    transform: translateY(-5px);
-}
-
 /* SERVICES GRID */
 .services-grid{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 20px;
-    background-color: #f5f5f5;
 }
 
-/* SERVICE CARDS */
-.service-card{
+/* SERVICE CARD */
+.service-card,
+.location-card{
     background-color: white;
     padding: 20px;
     border-radius: 10px;
     text-align: center;
-    transition: 0.3s;
     box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    transition: 0.3s;
 }
 
-.service-card:hover{
+.service-card:hover,
+.location-card:hover{
     transform: translateY(-5px);
     box-shadow: 0 8px 20px rgba(0,0,0,0.25);
 }
@@ -417,37 +111,49 @@ section{
     margin: 15px 0;
 }
 
-/* CONTACT LOCATIONS */
+/* LIST SECTIONS */
+.services-preview,
+.why-choose{
+    text-align: center;
+}
+
+.services-preview ul,
+.why-choose ul{
+    list-style: none;
+    margin-top: 20px;
+}
+
+.services-preview ul li{
+    background-color: #001d3d;
+    color: white;
+    margin: 10px auto;
+    padding: 15px;
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+.why-choose ul li{
+    background-color: #0077b6;
+    color: white;
+    margin: 10px auto;
+    padding: 15px;
+    max-width: 500px;
+    border-radius: 10px;
+}
+
+/* CONTACT GRID */
 .locations{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 20px;
-    background-color: #f5f5f5;
-}
-
-/* LOCATION CARDS */
-.location-card{
-    background-color: white;
-    padding: 20px;
-    border-radius: 10px;
-    text-align: center;
-    transition: 0.3s;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
-}
-
-.location-card:hover{
-    transform: translateY(-5px);
-    box-shadow: 0 8px 20px rgba(0,0,0,0.25);
-}
-
-/* ENQUIRY FORM SECTION */
-.enquiry-form-section{
-    display: flex;
-    justify-content: center;
-    background-color: #f5f5f5;
 }
 
 /* FORM */
+.enquiry-form-section{
+    display: flex;
+    justify-content: center;
+}
+
 form{
     background-color: white;
     padding: 30px;
@@ -457,17 +163,11 @@ form{
     box-shadow: 0 4px 15px rgba(0,0,0,0.15);
 }
 
-label{
-    font-weight: bold;
-}
-
-/* INPUTS */
 input,
 select,
 textarea{
     width: 100%;
     padding: 10px;
-    margin-top: 5px;
     margin-bottom: 15px;
     border-radius: 5px;
     border: 1px solid #ccc;
@@ -482,7 +182,6 @@ button{
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    transition: 0.3s;
 }
 
 button:hover{
@@ -495,27 +194,14 @@ footer{
     color: white;
     text-align: center;
     padding: 20px;
-    box-shadow: 0 -2px 8px rgba(0,0,0,0.2);
 }
 
-/* MOBILE RESPONSIVE */
+/* RESPONSIVE */
 @media(max-width: 768px){
-
-    header{
-        padding: 20px;
-    }
 
     nav{
         flex-direction: column;
         align-items: center;
-        gap: 10px;
-    }
-
-    .hero,
-    .services-hero,
-    .enquiry-hero,
-    .contact-intro{
-        padding: 60px 15px;
     }
 
     .hero h2,
