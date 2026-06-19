@@ -24,15 +24,20 @@
         <p>Your Local Hustle Marketplace</p>
     </div>
 
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="enquiry.html">Enquiry</a></li>
-        </ul>
-    </nav>
+   <nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="enquiry.html">Enquiry</a></li>
+    </ul>
+
+    <div class="search-box">
+        <input type="text" id="searchBox" placeholder="Search..." />
+        <button onclick="searchSite()">Search</button>
+    </div>
+</nav>
 
 </header>
 
@@ -315,6 +320,20 @@ lightbox.addEventListener("click", () => {
 lightbox.style.display = "none";
 
 });
+
+function searchSite() {
+  let input = document.getElementById("searchBox").value.toLowerCase();
+
+  if (input.includes("home")) {
+    window.location.href = "index.html";
+  } else if (input.includes("enquiry")) {
+    window.location.href = "enquiry.html";
+  } else if (input.includes("about")) {
+    window.location.href = "about.html";
+  } else {
+    alert("No results found");
+  }
+}
 
 </script>
 

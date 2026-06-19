@@ -5,9 +5,7 @@
 ---
 
 ## 🌍 Live Website
-🔗 Add your GitHub Pages link here  
-Example:  
-https://yourusername.github.io/BXhustleHub/
+https://github.com/Xihlovob-42/BXhustleHub.git
 
 ---
 

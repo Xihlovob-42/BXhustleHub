@@ -388,3 +388,32 @@ footer {
     margin-top: 50px;
     clear: both;
 }
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+
+.search-box {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+#searchBox {
+    width: 120px;
+    padding: 5px 8px;
+    font-size: 13px;
+}
+
+.search-box button {
+    padding: 5px 10px;
+    font-size: 13px;
+}
