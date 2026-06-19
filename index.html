@@ -1,16 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>BXhustleHub</title>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <title>BXhustleHub | Local Hustle Marketplace</title>
+
+    <meta name="description" content="BXhustleHub connects local hustlers and small businesses with customers in the community.">
+    <meta name="keywords" content="local business, tutoring, car wash, beauty, hustlers, small business">
+    <meta name="author" content="BXhustleHub">
+
     <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
 
 <header>
+
     <div class="logo">
         <img src="images/logo.png" alt="BXhustleHub Logo">
         <p>Your Local Hustle Marketplace</p>
@@ -25,44 +33,290 @@
             <li><a href="enquiry.html">Enquiry</a></li>
         </ul>
     </nav>
+
 </header>
 
 <section class="hero">
-    <h2>Welcome to BXhustleHub</h2>
-    <p>Connecting you with local hustlers and small businesses in your community</p>
+    <h1>Welcome to BXhustleHub</h1>
+    <p>Connecting you with local hustlers and small businesses in your community.</p>
 </section>
 
 <section class="intro">
+
     <h2>What We Do</h2>
-    <p>BXhustleHub connects local hustlers with people in the community who need their services. We help small businesses get visibility online.</p>
+
+    <p>
+        BXhustleHub connects local hustlers with people in the community who need
+        their services. We help small businesses gain visibility online and
+        grow their customer base.
+    </p>
+
+</section>
+
+<section class="search-section">
+
+    <h2>Search Services</h2>
+
+    <input
+        type="text"
+        id="searchInput"
+        placeholder="Search for a service..."
+    >
+
+    <div class="service-card">Hair & Beauty</div>
+    <div class="service-card">Tutoring</div>
+    <div class="service-card">Car Wash</div>
+    <div class="service-card">Baking & Food</div>
+
 </section>
 
 <section class="services-preview">
+
     <h2>Our Services</h2>
+
     <ul>
         <li>Hair & Beauty</li>
         <li>Tutoring</li>
         <li>Car Wash</li>
         <li>Baking & Food</li>
     </ul>
+
 </section>
 
 <section class="why-choose">
+
     <h2>Why Choose BXhustleHub?</h2>
-    <p>We support local entrepreneurs and connect them with affordable services.</p>
-<ul>
-    <li>We connect communities to trusted local services.</li>
-    <li>We support small businesses and local hustlers to grow.</li>
-    <li>We make services more affordable and easy to access.</li>
-    <li>We help you find quality work right in your area.</li>
-</ul>
+
+    <p>
+        We support local entrepreneurs and connect them with affordable services.
+    </p>
+
+    <ul>
+        <li>Connect communities with trusted local services.</li>
+        <li>Support small businesses and local hustlers.</li>
+        <li>Affordable and accessible services.</li>
+        <li>Find quality work within your area.</li>
+    </ul>
+
+</section>
+
+<section class="learn-more">
+
+    <h2>Learn More About BXhustleHub</h2>
+
+    <button id="openModal">
+        Read More
+    </button>
+
+</section>
+
+<div id="modal" class="modal">
+
+    <div class="modal-content">
+
+        <span class="close">&times;</span>
+
+        <h2>About BXhustleHub</h2>
+
+        <p>
+            BXhustleHub empowers local hustlers and entrepreneurs by
+            connecting them with customers while strengthening local
+            communities and businesses.
+        </p>
+
+    </div>
+
+</div>
+
+<section class="gallery-section">
+
+    <h2>Featured Services Gallery</h2>
+
+    <div class="gallery">
+
+         <img src="images/baking.jpg" alt="Baking Services" width="300">
+         
+       <img src="images/homeworkhelp.jpg" alt="Homework Help">
+
+ <img src="images/dogwalking.jpg" alt="Dog Walking Service">
+
+    </div>
+
+</section>
+
+<div id="lightbox">
+
+    <img id="lightbox-img" alt="Gallery Preview">
+
+</div>
+
+<section class="faq">
+
+    <h2>Frequently Asked Questions</h2>
+
+    <button class="accordion">What is BXhustleHub?</button>
+
+    <div class="panel">
+        <p>
+            BXhustleHub is a platform connecting local hustlers and
+            businesses with customers.
+        </p>
+    </div>
+
+    <button class="accordion">
+        How do I advertise my business?
+    </button>
+
+    <div class="panel">
+        <p>
+            Submit your business details through the Enquiry page.
+        </p>
+    </div>
+
+    <button class="accordion">
+        What services can be listed?
+    </button>
+
+    <div class="panel">
+        <p>
+            Tutoring, beauty, baking, car wash, food services,
+            and many more.
+        </p>
+    </div>
+
+    <button class="accordion">
+        Is BXhustleHub free to use?
+    </button>
+
+    <div class="panel">
+        <p>
+            Yes, visitors can browse local services free of charge.We actually appreciate customers
+        </p>
+    </div>
 
 </section>
 
 <footer>
-    <p>&copy; 2026 BXhustleHub</p>
-    <p>Connecting local hustlers to the community</p>
+
+<p>&copy; 2026 BXhustleHub</p>
+
+    <p>Connecting local hustlers to the community.</p>
+
+    <p> 
+        Follow us:
+        
+        <a href="https://instagram.com/bxhustlehub" target="_blank">Instagram</a>
+        <a href="https://facebook.com/bxhustlehub" target="_blank">Facebook</a>    
+            
+    </p>
+
 </footer>
+
+<script>
+
+
+const accordions =
+document.querySelectorAll(".accordion");
+
+accordions.forEach(item => {
+
+item.addEventListener("click", () => {
+
+item.classList.toggle("active");
+
+const panel =
+item.nextElementSibling;
+
+if(panel.style.maxHeight){
+panel.style.maxHeight = null;
+}
+else{
+panel.style.maxHeight =
+panel.scrollHeight + "px";
+}
+
+});
+
+});
+
+
+
+const searchInput =
+document.getElementById("searchInput");
+
+searchInput.addEventListener("keyup", function(){
+
+const filter =
+this.value.toLowerCase();
+
+const cards =
+document.querySelectorAll(".service-card");
+
+cards.forEach(card => {
+
+const text =
+card.textContent.toLowerCase();
+
+card.style.display =
+text.includes(filter)
+? "block"
+: "none";
+
+});
+
+});
+
+
+
+const modal =
+document.getElementById("modal");
+
+document
+.getElementById("openModal")
+.addEventListener("click", () => {
+
+modal.style.display = "block";
+
+});
+
+document
+.querySelector(".close")
+.addEventListener("click", () => {
+
+modal.style.display = "none";
+
+});
+
+
+
+const images =
+document.querySelectorAll(".gallery-img");
+
+const lightbox =
+document.getElementById("lightbox");
+
+const lightboxImg =
+document.getElementById("lightbox-img");
+
+images.forEach(img => {
+
+img.addEventListener("click", () => {
+
+lightbox.style.display = "flex";
+
+lightboxImg.src = img.src;
+
+});
+
+});
+
+lightbox.addEventListener("click", () => {
+
+lightbox.style.display = "none";
+
+});
+
+</script>
 
 </body>
 </html>
